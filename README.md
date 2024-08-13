@@ -1,5 +1,5 @@
 # Transfer_Learning_on_10_Food_Classes
-I trained a model to classify images into 10 different food categories using transfer learning. I utilized two powerful pre-trained models as feature extractors: ResNet 50 V2 and EfficientNetB0.
+I trained a model to classify images into 10 different food categories using transfer learning. I utilized two powerful pre-trained models as feature extractors: ***ResNet 50 V2*** and ***EfficientNetB0***.
 
 Key Steps:
 1. Data Preprocessing: The dataset consisted of 10 food classes, and images were resized and normalized to match the input requirements of the models.
