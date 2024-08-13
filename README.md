@@ -5,9 +5,9 @@ Key Steps:
 1. ***Data Preprocessing***: The dataset consisted of 10 food classes, and images were resized and normalized to match the input requirements of the models.
 2. ***Transfer Learning***:
    
-        ***ResNet 50 V2*** was used as a feature extractor, leveraging its deep residual network architecture to capture complex features from the images.
+       1. ResNet 50 V2 was used as a feature extractor, leveraging its deep residual network architecture to capture complex features from the images.
    
-        ***EfficientNetB0*** was also employed for its efficiency in balancing performance and computational cost, particularly with its scalable architecture.
+       2. EfficientNetB0 was also employed for its efficiency in balancing performance and computational cost, particularly with its scalable architecture.
    
 4. ***Model Training***: The extracted features from both models were fed into fully connected layers for classification.
 5. ***Evaluation***: Both models were evaluated on the same test dataset to compare their performance.   
